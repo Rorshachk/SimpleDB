@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZEval<simpledb>",
+            "request": "launch",
+            "mainClass": "Zql.ZEval",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZqlJJParser<simpledb>",
+            "request": "launch",
+            "mainClass": "Zql.ZqlJJParser",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ZqlParser<simpledb>",
+            "request": "launch",
+            "mainClass": "Zql.ZqlParser",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ANSIBuffer<simpledb>",
+            "request": "launch",
+            "mainClass": "jline.ANSIBuffer",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConsoleRunner<simpledb>",
+            "request": "launch",
+            "mainClass": "jline.ConsoleRunner",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Version<simpledb>",
+            "request": "launch",
+            "mainClass": "junit.runner.Version",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestRunner<simpledb>",
+            "request": "launch",
+            "mainClass": "junit.textui.TestRunner",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JUnitCore<simpledb>",
+            "request": "launch",
+            "mainClass": "org.junit.runner.JUnitCore",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LogicalPlan<simpledb>",
+            "request": "launch",
+            "mainClass": "simpledb.LogicalPlan",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Parser<simpledb>",
+            "request": "launch",
+            "mainClass": "simpledb.Parser",
+            "projectName": "simpledb"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SimpleDb<simpledb>",
+            "request": "launch",
+            "mainClass": "simpledb.SimpleDb",
+            "projectName": "simpledb"
+        }
+    ]
+}
